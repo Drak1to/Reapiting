@@ -1,12 +1,10 @@
-package Car;
+package CarCorrect;
 
-public class Wheel {
+public class Wheel2 {
     private int number;
-    private Car car;
 
-    public Wheel(int number, Car car) {
+    public Wheel2(int number) {
         this.number = number;
-        this.car = car;
     }
 
     public int getNumber() {
@@ -17,19 +15,10 @@ public class Wheel {
         this.number = number;
     }
 
-    public Car getCar() {
-        return car;
-    }
-
-    public void setCar(Car car) {
-        this.car = car;
-    }
-
     @Override
     public String toString() {
-        return "Wheel{" +
+        return "Wheel2{" +
                 "number=" + number +
-                ", car=" + car +
                 '}';
     }
 }
